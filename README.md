@@ -4,6 +4,9 @@ A system for personalized ingredient substitution using deep learning and contex
 
 **Note:** This work is currently under review at AAAI. The demo and dataset will be made available upon acceptance and the conclusion of the review process.
 
+## Demo Video
+[Watch the demo video](https://drive.google.com/file/d/1hlUY432qqsdnZTugB80IDSAzztRO_8DH/view?usp=sharing)
+
 ## Features
 
 - **Multimodal Queries**: Supports natural language, structured, and image-based queries.
@@ -11,46 +14,15 @@ A system for personalized ingredient substitution using deep learning and contex
 - **Contextual Knowledge**: Integrates data from Edamam, ConceptNet, FlavorDB, and Wikidata.
 - **Reasoning**: Provides explanations for the substitutions based on trusted sources.
 
-## Installation
-
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/yourusername/MultimodalIngredientSubstitution.git
-    cd MultimodalIngredientSubstitution
-    ```
-
-2. Create a virtual environment and activate it:
-    ```sh
-    python3 -m venv venv
-    source venv/bin/activate
-    ```
-
-3. Install the required packages:
-    ```sh
-    pip install -r requirements.txt
-    ```
-
-## Usage
-
-1. **Run the application**:
-    ```sh
-    python app.py
-    ```
-
-2. **Access the UI**:
-   Open your browser and navigate to `http://localhost:5000`.
-
-3. **Query the system**:
-   - **Structured Query**: Enter the ingredient name, constraints, and number of substitutes.
-   - **Natural Language Query**: Type your query in natural language (e.g., "Find vegan substitutes for chicken").
-   - **Image-Based Query**: Upload an image of the ingredient and specify constraints.
-
 ## Data Sources
 
 - **Edamam**: Nutrition and dietary labels.
 - **ConceptNet**: Ingredient categories and alternative names.
 - **FlavorDB**: Flavor compounds associated with ingredients.
 - **Wikidata**: Information on origin, usage, and dietary restrictions.
+
+## Code and Data
+The code and data consists of proprietary information. It is currently under progress to construct a version that does not incorporate proprietary information. The code and open-sourced datasets will be released up on notification of paper acceptance.
 
 ## License
 
