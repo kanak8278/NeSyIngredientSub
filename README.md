@@ -7,6 +7,8 @@ A system for personalized ingredient substitution using deep learning and contex
 ## Demo Video
 [Watch the demo video](https://drive.google.com/file/d/1hlUY432qqsdnZTugB80IDSAzztRO_8DH/view?usp=sharing)
 
+![](https://github.com/kanak8278/NeSyIngredientSub/blob/main/overview.png)
+
 ## Features
 
 - **Multimodal Queries**: Supports natural language, structured, and image-based queries.
